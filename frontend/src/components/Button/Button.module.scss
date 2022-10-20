@@ -1,0 +1,62 @@
+.button {
+	display: inline-block;
+	height: auto;
+	padding: 0.8rem 2rem;
+	border: none;
+	border-radius: 6px;
+	font-weight: 500;
+	font-size: 1rem;
+	text-decoration: none;
+	text-transform: capitalize;
+	cursor: pointer;
+	overflow: hidden;
+	&__select {
+		color: var(--black-2);
+		font-family: Poppins;
+		padding: 1rem;
+		border: none;
+		background-color: var(--bg-3);
+		width: 150px;
+		cursor: pointer;
+	}
+}
+
+
+.button--primary {
+    border-width: thin;
+    border-style: solid;
+	border-color: var(--primaryPurple);
+	color: var(--primaryPurple);
+    &:hover {
+        background-color: var(--primaryPurple);
+        color: var(--white);
+    }
+}
+
+
+.button--secondary {
+
+    border-width: thin;
+    border-style: solid;
+    border-color: var(--emerald);
+	color: var(--emerald);
+    &:hover {
+        background-color: var(--emerald);
+        color: var(--white);
+    }
+}
+
+
+.button--danger {
+    background-color: var(--chiliPeper);
+	color: var(--white);
+
+}
+
+
+.button--modal {
+
+	color: var(--black);
+
+}
+

@@ -1,0 +1,18 @@
+.tasks {
+    min-height: 450px;
+  }
+
+  .completed{
+    color: white;
+    background-color: #009B77;
+  }
+
+  .backlog{
+    color: black;
+    background-color: #DFCFBE;
+  }
+
+  .inprogress{
+    color: white;
+    background-color: #5B5EA6;
+  }
