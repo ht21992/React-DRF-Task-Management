@@ -6,6 +6,7 @@
 2. open up command line in project folder and run commands below
 2. python manage.py migrate
 3. python manage.py runserver
+4. open up http://localhost:8000/ , register an account and login
 ```
 
 ![image](https://user-images.githubusercontent.com/47816410/196906291-b2e8b65b-b5ca-4f2d-858e-6ae5504e484a.png)
