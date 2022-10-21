@@ -130,7 +130,7 @@ const TaskModal = ({ type,variant='',modalOpen, setModalOpen, task }) => {
   const handleDelete = () => {
     dispatch(delTaskAsync(task.id));
     update_tasks_num("no one", pervAssignee, profile.user);
-    toast.success("Todo Deleted Successfully");
+    toast.success("Task Deleted Successfully");
     setModalOpen(false);
     $("#closeModalBtn").click();
   };
