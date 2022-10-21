@@ -16,6 +16,9 @@ function update_tasks_num(current_assignee, perv_assignee, current_user, change_
 
   if (perv_assignee === current_user) {
     context.tasks_num -= 1;
+    if (context.tasks_num < 0){
+      context.tasks_num = 0
+    }
   } else if (current_assignee == current_user) {
     context.tasks_num += 1;
   } else {
@@ -24,6 +27,8 @@ function update_tasks_num(current_assignee, perv_assignee, current_user, change_
   if (change_frontend_element){
     document.getElementById("TaskCounter").innerHTML = context.tasks_num;
   }
+
+
 
 }
 
