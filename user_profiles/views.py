@@ -1,6 +1,3 @@
-import imp
-from turtle import position
-from django.shortcuts import render
 from .serializers import UserProfileSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response

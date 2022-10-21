@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.views.decorators.csrf import csrf_protect, ensure_csrf_cookie
 from rest_framework.views import APIView
 from rest_framework import permissions

@@ -47,6 +47,12 @@ class Task(models.Model):
     def get_subtasks(self):
         return self.subs.all()
 
+    def get_logs(self):
+        return self.logs.all()
+
+    def get_comments(self):
+        return self.comments.all()
+
     def save(self, *args, **kwargs):
 
         self.completion_percentage = PROGRESS_DICT[self.status]

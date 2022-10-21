@@ -66,7 +66,7 @@ const LogSlice = createSlice({
     },
 
     [addLogAsync.fulfilled]: (state, action) => {
-      state.logs.push(action.payload);
+      state.logs.unshift(action.payload);
     },
     [addLogAsync.rejected]: (state, action) => {
       state.error = action.error.message;
